@@ -6,6 +6,18 @@ public interface IFileSystem
         string path, 
         CancellationToken stoppingToken = default
     );
+    
+    Task<byte[]> ReadFileAsync(
+        string path, 
+        long skip,
+        long take,
+        CancellationToken stoppingToken = default
+    );
+
+    Task<long> GetFileSizeAsync(
+        string path,
+        CancellationToken stoppingToken = default
+    );
 
     Task CreateFileAsync(
         string path,
