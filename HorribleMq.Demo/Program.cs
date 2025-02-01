@@ -21,23 +21,23 @@ var serviceProvider = services.BuildServiceProvider();
 var publisher = serviceProvider.GetRequiredService<IMessagePublisher>();
 var subscriber = serviceProvider.GetRequiredService<IMessageSubscriber>();
 
-var subscriberTask = Task.Run(async () =>
+
+var logger = serviceProvider.GetRequiredService<ILogger<Program>>();
+
+var subscriberTask = subscriber.SubscribeAsync<OrderCreated>("booking-events", (order, _) =>
 {
-    await subscriber.SubscribeAsync<OrderCreated>("booking-events", (order, stoppingToken) =>
-    {
-        Console.WriteLine($"Received order {order.OrderId}");
-        return Task.CompletedTask;
-    });
+    logger.LogInformation("Received order {OrderId}", order.OrderId);
+    return Task.CompletedTask;
 });
 
-foreach (var _ in Enumerable.Range(0, 10))
+foreach (var _ in Enumerable.Range(0, 1_000))
 {
     await publisher.PublishAsync("booking-events", new OrderCreated()
     {
         OrderId = Guid.NewGuid()
     });
     
-    await Task.Delay(TimeSpan.FromMilliseconds(500));
+    await Task.Delay(TimeSpan.FromSeconds(1));
 }
 
 await subscriberTask;
