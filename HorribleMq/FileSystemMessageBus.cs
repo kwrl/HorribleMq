@@ -31,7 +31,7 @@ public class FileSystemMessageBus(
     {
         var index = 0;
         
-        while (true)
+        while (!stoppingToken.IsCancellationRequested)
         {
             long offset = index*16;
            
