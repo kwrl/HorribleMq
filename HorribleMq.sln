@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorribleMq", "HorribleMq.csproj", "{D0444B65-3559-4BA0-A760-0B502E7E29C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorribleMq.Contract", "HorribleMq.Contract\HorribleMq.Contract.csproj", "{F35CBC52-9BEA-47D3-9908-43DD2EA17090}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorribleMq.FileSystem.Contract", "HorribleMq.FileSystem.Contract\HorribleMq.FileSystem.Contract.csproj", "{82C2EBA9-4209-41C9-B947-92A4FD813468}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorribleMq.FileSystem.AzureBlobStorage", "HorribleMq.FileSystem.AzureBlobStorage\HorribleMq.FileSystem.AzureBlobStorage.csproj", "{88A37CB1-B541-448B-BC33-809F32938C37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorribleMq.FileSystem.Local", "HorribleMq.FileSystem.Local\HorribleMq.FileSystem.Local.csproj", "{8AF80263-4664-42AC-8622-1B8D41E4F3F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorribleMq.FileSystem.Local.Test", "HorribleMq.FileSystem.Local.Test\HorribleMq.FileSystem.Local.Test.csproj", "{F02F9382-230C-493D-A149-3E136A109212}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorribleMq.Demo", "HorribleMq.Demo\HorribleMq.Demo.csproj", "{92770CBD-9111-47F9-B286-DD092893F18C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0444B65-3559-4BA0-A760-0B502E7E29C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0444B65-3559-4BA0-A760-0B502E7E29C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0444B65-3559-4BA0-A760-0B502E7E29C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0444B65-3559-4BA0-A760-0B502E7E29C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F35CBC52-9BEA-47D3-9908-43DD2EA17090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F35CBC52-9BEA-47D3-9908-43DD2EA17090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F35CBC52-9BEA-47D3-9908-43DD2EA17090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F35CBC52-9BEA-47D3-9908-43DD2EA17090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C2EBA9-4209-41C9-B947-92A4FD813468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C2EBA9-4209-41C9-B947-92A4FD813468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C2EBA9-4209-41C9-B947-92A4FD813468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C2EBA9-4209-41C9-B947-92A4FD813468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A37CB1-B541-448B-BC33-809F32938C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A37CB1-B541-448B-BC33-809F32938C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A37CB1-B541-448B-BC33-809F32938C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A37CB1-B541-448B-BC33-809F32938C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF80263-4664-42AC-8622-1B8D41E4F3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF80263-4664-42AC-8622-1B8D41E4F3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF80263-4664-42AC-8622-1B8D41E4F3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF80263-4664-42AC-8622-1B8D41E4F3F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F02F9382-230C-493D-A149-3E136A109212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F02F9382-230C-493D-A149-3E136A109212}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F02F9382-230C-493D-A149-3E136A109212}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F02F9382-230C-493D-A149-3E136A109212}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92770CBD-9111-47F9-B286-DD092893F18C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92770CBD-9111-47F9-B286-DD092893F18C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92770CBD-9111-47F9-B286-DD092893F18C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92770CBD-9111-47F9-B286-DD092893F18C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

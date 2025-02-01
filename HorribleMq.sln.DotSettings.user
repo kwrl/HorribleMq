@@ -1,0 +1,7 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=91930a25_002Dfff7_002D4269_002D8566_002D22be8ec8c796/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ReadAsync_ShouldReadFile" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::F02F9382-230C-493D-A149-3E136A109212::net8.0::HorribleMq.FileSystem.Local.Test.LocalFileSystemTest.ReadAsync_ShouldReadFile&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::F02F9382-230C-493D-A149-3E136A109212::net8.0::HorribleMq.FileSystem.Local.Test.LocalFileSystemTest.ReadAsync_ShouldReadFileWithSkipAndTake&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
