@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorribleMq", "HorribleMq.csproj", "{D0444B65-3559-4BA0-A760-0B502E7E29C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorribleMq", "HorribleMq/HorribleMq.csproj", "{D0444B65-3559-4BA0-A760-0B502E7E29C2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorribleMq.Contract", "HorribleMq.Contract\HorribleMq.Contract.csproj", "{F35CBC52-9BEA-47D3-9908-43DD2EA17090}"
 EndProject
@@ -13,6 +13,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorribleMq.FileSystem.Local.Test", "HorribleMq.FileSystem.Local.Test\HorribleMq.FileSystem.Local.Test.csproj", "{F02F9382-230C-493D-A149-3E136A109212}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorribleMq.Demo", "HorribleMq.Demo\HorribleMq.Demo.csproj", "{92770CBD-9111-47F9-B286-DD092893F18C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorribleMq.Serialization.Contract", "HorribleMq.Serialization.Contract\HorribleMq.Serialization.Contract.csproj", "{18B06CCA-8269-4958-B595-A005557326CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorribleMq.Serialization.Json", "HorribleMq.Serialization.Json\HorribleMq.Serialization.Json.csproj", "{E33430C6-0BFB-4A68-817F-9A6C89EFA518}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,5 +52,13 @@ Global
 		{92770CBD-9111-47F9-B286-DD092893F18C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92770CBD-9111-47F9-B286-DD092893F18C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92770CBD-9111-47F9-B286-DD092893F18C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18B06CCA-8269-4958-B595-A005557326CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B06CCA-8269-4958-B595-A005557326CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B06CCA-8269-4958-B595-A005557326CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B06CCA-8269-4958-B595-A005557326CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E33430C6-0BFB-4A68-817F-9A6C89EFA518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E33430C6-0BFB-4A68-817F-9A6C89EFA518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E33430C6-0BFB-4A68-817F-9A6C89EFA518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E33430C6-0BFB-4A68-817F-9A6C89EFA518}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

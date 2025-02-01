@@ -10,6 +10,8 @@
     <ItemGroup>
       <ProjectReference Include="..\HorribleMq.csproj" />
       <ProjectReference Include="..\HorribleMq.FileSystem.Local\HorribleMq.FileSystem.Local.csproj" />
+      <ProjectReference Include="..\HorribleMq.Serialization.Json\HorribleMq.Serialization.Json.csproj" />
+      <ProjectReference Include="..\HorribleMq\HorribleMq.csproj" />
     </ItemGroup>
 
 </Project>

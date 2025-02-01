@@ -14,23 +14,9 @@ public class LocalFileSystemTest
         Directory.CreateDirectory(_rootPath);
         await File.WriteAllBytesAsync(Path.Combine(_rootPath, path), data);
         
-        var result = await CreateSut().ReadAsync(path);
+        var result = await CreateSut().ReadFileAsync(path);
         
         result.ShouldBe(data);
-    }
-    
-    [Fact]
-    public async Task ReadAsync_ShouldReadFileWithSkipAndTake()
-    {
-        var data = "Hello, World!"u8.ToArray();
-        var path = "test.txt";
-        
-        Directory.CreateDirectory(_rootPath);
-        await File.WriteAllBytesAsync(Path.Combine(_rootPath, path), data);
-        
-        var result = await CreateSut().ReadAsync(path, 0, 5);
-       
-        result.Length.ShouldBe(5);
     }
     
     private IFileSystem CreateSut() => new LocalFileSystem(_rootPath);
