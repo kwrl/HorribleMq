@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\HorribleMq.csproj" />
+      <ProjectReference Include="..\HorribleMq\HorribleMq.csproj" />
       <ProjectReference Include="..\HorribleMq.FileSystem.AzureBlobStorage\HorribleMq.FileSystem.AzureBlobStorage.csproj" />
       <ProjectReference Include="..\HorribleMq.FileSystem.Local\HorribleMq.FileSystem.Local.csproj" />
       <ProjectReference Include="..\HorribleMq.Serialization.Json\HorribleMq.Serialization.Json.csproj" />

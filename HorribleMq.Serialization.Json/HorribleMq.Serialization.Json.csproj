@@ -8,5 +8,4 @@
     <ItemGroup>
       <ProjectReference Include="..\HorribleMq.Serialization.Contract\HorribleMq.Serialization.Contract.csproj" />
     </ItemGroup>
-
 </Project>
